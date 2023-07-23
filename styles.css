@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resumePreview {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 12px;
+}
+
+/* Additional Styling for Resume Sections */
+#resumePreview h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+#resumePreview p {
+    margin-bottom: 20px;
+}
